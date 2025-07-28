@@ -1,0 +1,33 @@
+--2018
+
+import pandas as pd
+
+nsch_2018_raw = pd.read_csv
+
+required_columns = [
+    "HHID", "age5_18", "sex_18", "raceASIA_18", "BMI4_18",
+    "LowBWght_18", "PhysAct_18", "ScreenTime_18",
+    "povlev4_18", "AdultEduc_18", "WrkngPoor_18", "FoodStamp_18",
+    "FIPSST", "bullied_18"]
+
+nsch_subset = nsch_2018_raw
+
+nsch_subset_filtered.to_csv("data/Obesity_Demographics.csv", index=False)
+
+print(" Extracted subset of NSCH 2018 saved as 'Obesity_Demographics.csv")
+
+--2022
+
+import pandas as pd
+
+nsch_2022 = pd.read_csv
+
+required_columns = [
+    "HHID", "age5_22", "sex_22", "raceASIA_22", "BMI4_22",
+    "LowBWght_22", "PhysAct_22", "ScreenTime_22",
+    "povlev4_22", "AdultEduc_22", "WrkngPoorR_22", "FoodCash_22",
+    "FIPSST", "bullied_22"]
+
+
+subset.to_csv("data/Obesity_Demographics_2022.csv", index=False)
+print(" Extracted data saved as 'Obesity_Demographics_2022.csv")
